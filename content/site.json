@@ -1,0 +1,375 @@
+{
+  "name": "Artan Records Docs",
+  "domain": "https://docs.artanrecords.com",
+  "indexable": true,
+  "copyright": "© 2026 Artan Records",
+  "contentsLabel": "On this page",
+  "search": {
+    "label": "Search artist guidance",
+    "results": "{count} guides found",
+    "empty": "No matching guides. Browse the topics below."
+  },
+  "navigation": [
+    {
+      "label": "Guidance",
+      "url": "/"
+    },
+    {
+      "label": "Artan Records",
+      "url": "https://artanrecords.com/"
+    },
+    {
+      "label": "Studio",
+      "url": "https://studio.artanrecords.com/"
+    }
+  ],
+  "footer": [
+    {
+      "label": "Submit your music",
+      "url": "https://artanrecords.com/submit/"
+    },
+    {
+      "label": "Submission privacy",
+      "url": "https://artanrecords.com/submission-privacy/"
+    },
+    {
+      "label": "Contact",
+      "url": "mailto:contact@artanrecords.com"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "A clear path for your work",
+      "description": "Guidance for artists, releases and the people building around them.",
+      "status": "Current guidance. Project-specific agreements and delivery requirements take precedence.",
+      "sections": []
+    },
+    {
+      "path": "/getting-started/",
+      "title": "Start with your music",
+      "description": "How to approach Artan Records.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "review",
+          "title": "A reviewed introduction",
+          "paragraphs": [
+            "Artan Records welcomes artist introductions and creative proposals. The current route is a human-reviewed enquiry, not instant distribution or self-service registration."
+          ]
+        },
+        {
+          "id": "prepare",
+          "title": "What to prepare",
+          "paragraphs": [
+            "Your artist name, a short introduction and a listening link are enough to begin. Include the release type, contributors and intended timing if known."
+          ]
+        },
+        {
+          "id": "next",
+          "title": "What follows",
+          "paragraphs": [
+            "If there is a fit, the next step is a conversation about scope and terms. Submission alone does not create representation or an artist account."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/submissions/",
+      "title": "Send your work",
+      "description": "A practical guide to the current enquiry process.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "send",
+          "title": "Use the label form",
+          "paragraphs": [
+            "Open Submit your music on the label website. Choose Music submission, complete the required contact fields and verification, then send. The server response confirms whether the enquiry was saved."
+          ]
+        },
+        {
+          "id": "links",
+          "title": "Share listening links",
+          "paragraphs": [
+            "Use links you have permission to share. Check that the recipient can open them. Do not send masters, identity documents, bank details or tax records through the public form."
+          ]
+        },
+        {
+          "id": "correction",
+          "title": "Correct an enquiry",
+          "paragraphs": [
+            "Contact collaborate@artanrecords.com with the enquiry reference where available. Do not repeatedly submit the same enquiry to correct a detail."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/release-workflow/",
+      "title": "From enquiry to release",
+      "description": "Understand the distinction between review and an agreed release.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "review",
+          "title": "Review first",
+          "paragraphs": [
+            "An enquiry is reviewed before any release commitment is made. Acceptance, responsibilities and scope must be confirmed separately."
+          ]
+        },
+        {
+          "id": "agreement",
+          "title": "Agreement before delivery",
+          "paragraphs": [
+            "Rights and commercial terms must be agreed before distribution. There is no automatic delivery from this website to a streaming platform."
+          ]
+        },
+        {
+          "id": "preparation",
+          "title": "Prepare and check",
+          "paragraphs": [
+            "Artwork, audio, credits and metadata need to be reviewed together. Delivery specifications depend on the agreed distribution arrangement and must be confirmed for each project."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/metadata/",
+      "title": "Names, credits and identifiers",
+      "description": "Keep the release record clear and consistent.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "identity",
+          "title": "Artist and release names",
+          "paragraphs": [
+            "Use the confirmed public artist name consistently. Keep legal identity separate from public credits unless its publication is intended. Confirm the release title, version and track order."
+          ]
+        },
+        {
+          "id": "credits",
+          "title": "Credit the work",
+          "paragraphs": [
+            "Provide the contributors and their roles: composition, lyrics, performance, production, mixing, mastering and artwork where applicable. Do not infer credits from an artist name."
+          ]
+        },
+        {
+          "id": "identifiers",
+          "title": "Existing identifiers",
+          "paragraphs": [
+            "Preserve existing ISRC and UPC identifiers when supplied. Do not invent identifiers or assume a reissue needs new ones; confirm the recording history and distributor requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/artwork/",
+      "title": "Prepare release artwork",
+      "description": "Artwork guidance before final delivery specifications are agreed.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "rights",
+          "title": "Confirm permission",
+          "paragraphs": [
+            "Use artwork you have the necessary permission to release. Include the agreed artwork and photography credits."
+          ]
+        },
+        {
+          "id": "source",
+          "title": "Keep the source",
+          "paragraphs": [
+            "Keep the original high-resolution artwork privately. Share a review copy or link for an initial conversation."
+          ]
+        },
+        {
+          "id": "delivery",
+          "title": "Confirm delivery requirements",
+          "paragraphs": [
+            "Final dimensions, format and export requirements must be confirmed for the chosen delivery arrangement. This guide does not establish a universal distributor specification."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/audio/",
+      "title": "Prepare your audio",
+      "description": "Preserve the master and share safely.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "review",
+          "title": "For initial review",
+          "paragraphs": [
+            "A listening link is sufficient. Do not place private master files or production sessions in a public repository."
+          ]
+        },
+        {
+          "id": "master",
+          "title": "For an accepted release",
+          "paragraphs": [
+            "Keep the original lossless master and a clear version history. Confirm the final track order and durations."
+          ]
+        },
+        {
+          "id": "specification",
+          "title": "Before delivery",
+          "paragraphs": [
+            "Confirm sample rate, bit depth, channel format and delivery method with the label. No upload portal or automated audio quality-control service is currently available."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/agreements/",
+      "title": "Find and sign an agreement",
+      "description": "What is available now, and what must be confirmed before signing.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "availability",
+          "title": "No agreement portal yet",
+          "paragraphs": [
+            "Studio does not currently store or display signed agreements. No standard artist contract is published or approved here. Request the agreement applicable to your project directly from Artan Records."
+          ]
+        },
+        {
+          "id": "review",
+          "title": "Read before signing",
+          "paragraphs": [
+            "Review the parties, recordings, rights, term, territory, commercial terms, permitted deductions, reporting, termination and responsibilities. Ask for clarification and obtain independent advice where needed."
+          ]
+        },
+        {
+          "id": "signature",
+          "title": "Digital signature",
+          "paragraphs": [
+            "No digital-signature provider is configured. Do not upload a signature or identity document to this website. If an agreement is offered, the label must confirm the approved signing process and verified sender directly."
+          ]
+        },
+        {
+          "id": "copy",
+          "title": "Keep your copy",
+          "paragraphs": [
+            "After signing through an agreed process, retain the complete executed document. A website status, checkbox or enquiry acknowledgement is not a signed artist agreement."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/royalties/",
+      "title": "Royalties and statements",
+      "description": "Understand the terms before interpreting a balance.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "terms",
+          "title": "Your agreement governs",
+          "paragraphs": [
+            "There is no universal royalty percentage, deduction policy or payout schedule published here. Those must be defined in an approved agreement."
+          ]
+        },
+        {
+          "id": "distinction",
+          "title": "Listening data is not money",
+          "paragraphs": [
+            "Streams and audience analytics are different from reported royalties, reconciled receipts and payable amounts. Studio currently displays none of these as real account data."
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "Ask about a statement",
+          "paragraphs": [
+            "If you receive a statement, retain its period and reference when raising a question. A secure statement portal is not yet available."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/payments/",
+      "title": "Payment and tax information",
+      "description": "Keep sensitive information out of public enquiries.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "private",
+          "title": "Do not send sensitive details",
+          "paragraphs": [
+            "The public form is not a payment or tax onboarding channel. Do not include bank information, tax identifiers or identity documents."
+          ]
+        },
+        {
+          "id": "onboarding",
+          "title": "After an agreement",
+          "paragraphs": [
+            "Any required onboarding must use a separately confirmed secure process. No payout provider or tax onboarding service is configured in Studio."
+          ]
+        },
+        {
+          "id": "schedule",
+          "title": "No published payout schedule",
+          "paragraphs": [
+            "Payment eligibility, timing and any applicable requirements depend on the approved agreement and accounting process. This guide does not promise a payment date."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/studio/",
+      "title": "Using Studio",
+      "description": "The current artist workspace is a public foundation.",
+      "category": "Artist guidance",
+      "sections": [
+        {
+          "id": "status",
+          "title": "What you can use",
+          "paragraphs": [
+            "You can browse workspace explanations and follow guidance. There are no private accounts, authenticated sessions, artist-specific statistics or stored agreements."
+          ]
+        },
+        {
+          "id": "private",
+          "title": "What not to enter",
+          "paragraphs": [
+            "Do not enter passwords, signatures, private contracts or financial details into a public page. Future operational features require a secure backend and access controls."
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/developers/",
+      "title": "Public technical foundation",
+      "description": "How the three public surfaces are built.",
+      "category": "Technical guidance",
+      "sections": [
+        {
+          "id": "ownership",
+          "title": "One shared foundation",
+          "paragraphs": [
+            "The main label repository owns the shared Artan Records foundation. Docs and Studio consume committed, checksum-verified snapshots of its approved assets and renderer."
+          ]
+        },
+        {
+          "id": "content",
+          "title": "Content and rendering",
+          "paragraphs": [
+            "Each surface owns its content/site.json. Static HTML, page metadata and sitemap are generated from that collection. CSS controls presentation and JavaScript progressively enhances navigation, theme and documentation search."
+          ]
+        },
+        {
+          "id": "build",
+          "title": "Build and checks",
+          "paragraphs": [
+            "Use Node 22 or later. Run npm run build and npm run check. Shared changes belong in the main repository and are synchronized deliberately; do not patch copied token or icon files."
+          ]
+        },
+        {
+          "id": "boundaries",
+          "title": "Public only",
+          "paragraphs": [
+            "GitHub Pages serves public files. It is not the authorization boundary for private artist data. No private information, credentials, financial records or internal business specification belongs in these repositories."
+          ]
+        }
+      ]
+    }
+  ]
+}
