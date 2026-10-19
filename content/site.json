@@ -38,6 +38,11 @@
     }
   ],
   "pages": [
+    {"path":"/submission-standards/","title":"Human-made music and artist identity","description":"Requirements for recordings, artwork and profile photographs.","category":"Release preparation","sections":[
+      {"id":"recordings","title":"Human-made music","paragraphs":["Fully AI-generated music or masters are not accepted by Artanrecords. Explain who created and performed the work and disclose AI involvement. Tool use is reviewed in context rather than inferred from an audio file alone."]},
+      {"id":"visuals","title":"Artwork and portraits are different","paragraphs":["AI-assisted release artwork is not an automatic rejection, but rights, disclosure and delivery requirements still apply. Artist profile images must be genuine photographs of the artist, not generated portraits, synthetic identities or face replacements."]},
+      {"id":"review","title":"Provenance and clarification","paragraphs":["Human review may request credits, contributor confirmation or relevant session evidence through an agreed private process. Automated scores cannot establish authorship conclusively. No AI detection provider is currently connected. A submission may be paused for clarification rather than rejected on a detector result alone."]}
+    ]},
     {
       "path":"/referrals-and-payments/","title":"Referrals, service credits and payments",
       "description":"Understand the separate roles of artist introductions, optional services and recording-income payments.","category":"Partnership guidance",
