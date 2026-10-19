@@ -39,6 +39,17 @@
   ],
   "pages": [
     {
+      "path":"/referrals-and-payments/","title":"Referrals, service credits and payments",
+      "description":"Understand the separate roles of artist introductions, optional services and recording-income payments.","category":"Partnership guidance",
+      "sections":[
+        {"id":"referrals","title":"Artist introductions","paragraphs":["A referral programme is being prepared for artists who introduce another artist. It is not open for earning or spending credits yet. Acceptance remains a human-reviewed decision; an introduction cannot guarantee an agreement."]},
+        {"id":"credits","title":"Credits for agreed services","paragraphs":["The proposed programme would support approved services such as promotion, artwork and artist websites. Award values, qualifying events, redemption, expiry, cancellations and disputes must be published before activation. No cash conversion or withdrawal is currently available. Referral credits are separate from recording royalties and do not change an artist's revenue share."]},
+        {"id":"payments","title":"Optional services and payment methods","paragraphs":["Accepted standard releases have no upfront base distribution fee. Optional paid services need a separate scope and price agreed before payment. Stripe payment-method management is not connected yet; do not send card numbers, bank details or tax documents through public enquiries."]},
+        {"id":"withdrawals","title":"Recording income and withdrawal requests","paragraphs":["Recording income follows the signed agreement and reconciled reporting. A future withdrawal process must show eligible funds, applicable fees, verification requirements and request status before confirmation. Submitting a request must not be presented as a completed payment. Studio does not currently process withdrawals."]},
+        {"id":"exit","title":"Ending a relationship","paragraphs":["The release agreement must address notice, final accounting, approved expenses, catalogue migration and asset handover. Referral participation and unused service credits require their own programme terms. They must not prevent an artist from exercising rights under the release agreement."]}
+      ]
+    },
+    {
       "path":"/partnerships/",
       "title":"Working with a partnership",
       "description":"Preparation, scope and responsibilities for Silver, Gold and Platinum.",
