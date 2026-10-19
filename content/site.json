@@ -1,8 +1,8 @@
 {
-  "name": "Artan Records Docs",
+  "name": "Artanrecords Docs",
   "domain": "https://docs.artanrecords.com",
   "indexable": true,
-  "copyright": "© 2026 Artan Records",
+  "copyright": "© 2026 Artanrecords",
   "contentsLabel": "On this page",
   "search": {
     "label": "Search artist guidance",
@@ -15,7 +15,7 @@
       "url": "/"
     },
     {
-      "label": "Artan Records",
+      "label": "Artanrecords",
       "url": "https://artanrecords.com/"
     },
     {
@@ -39,6 +39,21 @@
   ],
   "pages": [
     {
+      "path":"/partnerships/",
+      "title":"Working with a partnership",
+      "description":"Preparation, scope and responsibilities for Silver, Gold and Platinum.",
+      "category":"Artist guidance",
+      "sections":[
+        {"id":"preference","title":"A preference, then a review","paragraphs":["Silver covers essential release infrastructure. Gold adds a defined release plan and selected presentation support. Platinum adds scoped release leadership and strategic reviews. These are levels of involvement, not rankings of artistic quality. Discuss your preference with Artanrecords; acceptance and scope require a written offer and agreement."]},
+        {"id":"prepare","title":"Prepare the work","paragraphs":["Begin with a listening link and a short introduction. Before delivery, prepare finished masters, artwork, titles, credits, contributors and permissions. Keep private masters and identity, tax or banking documents out of the initial enquiry."]},
+        {"id":"scope","title":"Record the responsibilities","paragraphs":["The agreement identifies included services, responsible parties, approvals and timing. Accepted standard releases have no upfront base distribution fee. Additional costs need prior classification as included, artist-paid or recoupable. Paid media, third-party production and domains are not automatically free."]},
+        {"id":"income","title":"Read the financial terms","paragraphs":["The written offer must define eligible master-side Net Receipts, artist and label shares, permitted deductions, reporting and approved expense treatment. The signed agreement governs, not a partnership name. Publishing and unrelated income remain separate unless expressly contracted. Master ownership remains with the artist under this partnership model."]},
+        {"id":"websites","title":"Scope a standalone website","paragraphs":["Gold eligibility and Platinum priority require a defined website scope. Record domain ownership, registration and renewal funding, hosting, maintenance, content responsibilities and handover. A label catalogue profile is separate from a standalone artist website."]},
+        {"id":"studio","title":"Use operational services only when available","paragraphs":["Private Studio workspaces, agreement access and financial reporting are not operational yet. No online balance, signing or payout service is provided by this guide. Use the agreed direct communication process for current projects."]},
+        {"id":"departure","title":"Agree the exit before delivery","paragraphs":["Record the licence term, notice, final accounting, outstanding expenses, release migration and website handover before onboarding. Preserve identifiers and approved assets; coordinate delivery changes rather than deleting a release first. Continuity of playlists and service statistics is not guaranteed."]}
+      ]
+    },
+    {
       "path": "/",
       "title": "A clear path for your work",
       "description": "Guidance for artists, releases and the people building around them.",
@@ -48,14 +63,14 @@
     {
       "path": "/getting-started/",
       "title": "Start with your music",
-      "description": "How to approach Artan Records.",
+      "description": "How to approach Artanrecords.",
       "category": "Artist guidance",
       "sections": [
         {
           "id": "review",
           "title": "A reviewed introduction",
           "paragraphs": [
-            "Artan Records welcomes artist introductions and creative proposals. The current route is a human-reviewed enquiry, not instant distribution or self-service registration."
+            "Artanrecords welcomes artist introductions and creative proposals. The current route is a human-reviewed enquiry, not instant distribution or self-service registration."
           ]
         },
         {
@@ -229,7 +244,7 @@
           "id": "availability",
           "title": "No agreement portal yet",
           "paragraphs": [
-            "Studio does not currently store or display signed agreements. No standard artist contract is published or approved here. Request the agreement applicable to your project directly from Artan Records."
+            "Studio does not currently store or display signed agreements. No standard artist contract is published or approved here. Request the agreement applicable to your project directly from Artanrecords."
           ]
         },
         {
@@ -345,7 +360,7 @@
           "id": "ownership",
           "title": "One shared foundation",
           "paragraphs": [
-            "The main label repository owns the shared Artan Records foundation. Docs and Studio consume committed, checksum-verified snapshots of its approved assets and renderer."
+            "The main label repository owns the shared Artanrecords foundation. Docs and Studio consume committed, checksum-verified snapshots of its approved assets and renderer."
           ]
         },
         {
