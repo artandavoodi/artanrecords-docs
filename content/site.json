@@ -5,7 +5,12 @@
   "copyright": "© 2026 Artanrecords",
   "contentsLabel": "On this page",
   "search": {
-    "label": "Search artist guidance",
+    "label": "Search Docs",
+    "placeholder":"Search releases, partnerships and guidance",
+    "prompt":"Search a topic or question.",
+    "pageSize":12,
+    "moreLabel":"Show more",
+    "categories":[{"id":"all","label":"All"},{"id":"releases","label":"Releases","paths":["/audio/","/artwork/","/metadata/","/release-workflow/","/submission-standards/"]},{"id":"partnerships","label":"Partnerships","paths":["/partnerships/","/agreements/","/royalties/","/payments/","/referrals-and-payments/"]},{"id":"guidance","label":"Guidance"}],
     "results": "{count} guides found",
     "empty": "No matching guides. Browse the topics below."
   },
