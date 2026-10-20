@@ -352,21 +352,21 @@
     {
       "path": "/studio/",
       "title": "Using Studio",
-      "description": "The current artist workspace is a public foundation.",
+      "description": "Sign in, manage a private artist profile and understand which Studio services are available.",
       "category": "Artist guidance",
       "sections": [
         {
           "id": "status",
           "title": "What you can use",
           "paragraphs": [
-            "You can browse workspace explanations and follow guidance. There are no private accounts, authenticated sessions, artist-specific statistics or stored agreements."
+            "Studio supports Google and email account access through the same sign-in identity as Artan Store. Your Studio artist profile, private photographs and billing address are separate from Store purchases. Creating an account is not artist approval. Release submissions, artist-specific statistics, agreements, payments and payouts are not active yet."
           ]
         },
         {
           "id": "private",
           "title": "What not to enter",
           "paragraphs": [
-            "Do not enter passwords, signatures, private contracts or financial details into a public page. Future operational features require a secure backend and access controls."
+            "Use the account panel for sign-in and recovery, and the authenticated Artist profile page for profile changes. Password changes affect the shared Store and Studio identity. Never put passwords, signatures, payment-card details, bank details or tax documents in profile fields or public enquiries."
           ]
         }
       ]
