@@ -43,6 +43,20 @@
     }
   ],
   "pages": [
+    {"path":"/service-specifications/","title":"Agree the service, then measure delivery","description":"How to turn a partnership scope into deliverables, responsibilities, approvals and completion evidence.","category":"Artist guidance","sections":[
+      {"id":"schedule","title":"The service schedule","paragraphs":["Before work begins, record each deliverable, its owner, the artist inputs it depends on, the approval decision, target date, revision limit, cost treatment and completion evidence. The signed project schedule governs; a public comparison is not an accepted offer."]},
+      {"id":"classes","title":"Six scope classifications","paragraphs":["Included means part of the accepted scope, subject to the agreed inputs. Eligible means it may be offered after review, not an automatic entitlement. Priority concerns coordination within an agreed schedule, not immediate access or an unqualified response guarantee.","Project-specific work requires its own brief, approvals and budget. Optional work may be declined without changing existing obligations. Not included means outside the base scope; any separate engagement needs explicit agreement. Future platform functions are availability notices, not contracted services."]},
+      {"id":"acceptance","title":"Evidence of completion","paragraphs":["For release preparation, retain the checked metadata and asset record and artist approval. For campaign work, retain the approved brief, delivered assets and review notes. For a website, use an acceptance checklist covering agreed pages, accessibility, listening links, ownership and handover. Record actual delivery, not a predicted commercial result."]},
+      {"id":"change","title":"When the scope changes","paragraphs":["Record the change, reason, effect on dates and costs, and both parties' approval before additional work or spending. Delayed inputs may require a revised schedule. Do not assume extra releases, unlimited revisions, ongoing maintenance or third-party spend are covered."]},
+      {"id":"capacity","title":"Fit and capacity","paragraphs":["Artanrecords is founder-led. A proposed tier is considered alongside delivery capacity; a narrower scope, later start or decline may be appropriate. Capacity review does not alter an existing signed agreement. Confirm the current schedule directly before planning a launch."]}
+    ]},
+    {"path":"/master-ownership-and-costs/","title":"Your masters, the licence and release costs","description":"Understand ownership, zero upfront base fees, recording-income shares and approved expenses before signing.","category":"Artist guidance","sections":[
+      {"id":"ownership","title":"Ownership is different from a licence","paragraphs":["Under the Artanrecords partnership model, the artist retains master ownership. The label receives only the rights defined in a separate agreement to operate the accepted release. Identify the recordings, permitted uses, territory, term and departure process. Songwriting and publishing rights are separate from the sound recording."]},
+      {"id":"zero","title":"Zero upfront is not a promise of zero costs","paragraphs":["Accepted standard releases have no upfront base distribution fee. Finished masters, artwork, metadata, credits and rights clearances are artist inputs. Additional production, domains, advertising and external PR require a separate scope and cost decision. A submission does not create a purchase or an agreement."]},
+      {"id":"receipts","title":"Define the money before calculating a share","paragraphs":["The agreement must define eligible master-side Net Receipts, permitted deductions, currency conversion, artist and label shares, reporting periods, payment conditions and correction procedures. Do not infer a percentage from a tier name or treat a streaming count as earnings. Public working examples are not a substitute for the signed financial terms."]},
+      {"id":"expenses","title":"Approve expenses first","paragraphs":["Identify whether an expense is label-funded and non-recoupable, artist-paid or approved and recoupable. Record the supplier, purpose, cap, approval and evidence of the actual cost. A proposed campaign does not authorize spending, and recoupment must not be added after the fact without agreement."]},
+      {"id":"exit","title":"Plan the end at the beginning","paragraphs":["Agree notice, licence expiry, final statements, outstanding amounts, identifiers, asset handover and migration responsibilities. Website and domain ownership, renewal and maintenance need separate clarity. Do not delete a live release before an agreed migration plan; playlist continuity is not guaranteed."]}
+    ]},
     {"path":"/submission-standards/","title":"Human-made music and artist identity","description":"Requirements for recordings, artwork and profile photographs.","category":"Release preparation","sections":[
       {"id":"recordings","title":"Human-made music","paragraphs":["Fully AI-generated music or masters are not accepted by Artanrecords. Explain who created and performed the work and disclose AI involvement. Tool use is reviewed in context rather than inferred from an audio file alone."]},
       {"id":"visuals","title":"Artwork and portraits are different","paragraphs":["AI-assisted release artwork is not an automatic rejection, but rights, disclosure and delivery requirements still apply. Artist profile images must be genuine photographs of the artist, not generated portraits, synthetic identities or face replacements."]},
@@ -70,7 +84,7 @@
         {"id":"scope","title":"Record the responsibilities","paragraphs":["The agreement identifies included services, responsible parties, approvals and timing. Accepted standard releases have no upfront base distribution fee. Additional costs need prior classification as included, artist-paid or recoupable. Paid media, third-party production and domains are not automatically free."]},
         {"id":"income","title":"Read the financial terms","paragraphs":["The written offer must define eligible master-side Net Receipts, artist and label shares, permitted deductions, reporting and approved expense treatment. The signed agreement governs, not a partnership name. Publishing and unrelated income remain separate unless expressly contracted. Master ownership remains with the artist under this partnership model."]},
         {"id":"websites","title":"Scope a standalone website","paragraphs":["Gold eligibility and Platinum priority require a defined website scope. Record domain ownership, registration and renewal funding, hosting, maintenance, content responsibilities and handover. A label catalogue profile is separate from a standalone artist website."]},
-        {"id":"studio","title":"Use operational services only when available","paragraphs":["Private Studio workspaces, agreement access and financial reporting are not operational yet. No online balance, signing or payout service is provided by this guide. Use the agreed direct communication process for current projects."]},
+        {"id":"studio","title":"Use operational services only when available","paragraphs":["Studio accounts and private artist profiles are available. Creating an account does not approve an artist relationship or publish a profile. Release submissions, agreement access, signing, financial reporting and payouts remain inactive. Use the agreed direct communication process for current projects."]},
         {"id":"departure","title":"Agree the exit before delivery","paragraphs":["Record the licence term, notice, final accounting, outstanding expenses, release migration and website handover before onboarding. Preserve identifiers and approved assets; coordinate delivery changes rather than deleting a release first. Continuity of playlists and service statistics is not guaranteed."]}
       ]
     },
@@ -145,6 +159,7 @@
       "description": "Understand the distinction between review and an agreed release.",
       "category": "Artist guidance",
       "sections": [
+        {"id":"introduction","title":"Introduce the work","paragraphs":["Share a private listening link and relevant context through the website. Keep your masters, identity documents and financial details out of the enquiry. Retain the enquiry reference for corrections or follow-up."]},
         {
           "id": "review",
           "title": "Review first",
@@ -159,13 +174,18 @@
             "Rights and commercial terms must be agreed before distribution. There is no automatic delivery from this website to a streaming platform."
           ]
         },
+        {"id":"onboarding","title":"Confirm the people and responsibilities","paragraphs":["After acceptance, identify the artist, contributors, project owner, approval contacts and agreed communication route. Confirm the service schedule, artist inputs, timetable, costs and rights before requesting delivery. Account creation alone is not onboarding or artist acceptance."]},
         {
           "id": "preparation",
           "title": "Prepare and check",
           "paragraphs": [
             "Artwork, audio, credits and metadata need to be reviewed together. Delivery specifications depend on the agreed distribution arrangement and must be confirmed for each project."
           ]
-        }
+        },
+        {"id":"distribution","title":"Approve delivery","paragraphs":["The artist approves final assets and the release record before delivery through the agreed distributor. Record delivery confirmations, identifiers and any exceptions. Delivery is not automatic from this website or Studio, and a proposed release date is not proof that stores have accepted it."]},
+        {"id":"publication","title":"Publish approved catalogue material","paragraphs":["Use only approved artist names, imagery, credits and listening links. A public label profile is distinct from a private Studio profile. Record permission for any quote or case study separately; participation does not imply permission to publish private communications."]},
+        {"id":"reporting","title":"Report what is actually received","paragraphs":["Reconcile available statements to recordings, periods, currencies and the signed financial terms. Distinguish streaming activity from reported earnings, and reported earnings from payments. Studio financial services are not active; use the agreed process and do not infer a payable balance from an interface."]},
+        {"id":"review-after","title":"Review the delivery","paragraphs":["Compare completed work with the service schedule, actual time and approved costs. Discuss corrections and the next step with the artist. Consent is required before turning feedback into public proof. Offboarding follows the agreement, including final reporting and coordinated migration."]}
       ]
     },
     {

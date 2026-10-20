@@ -7,6 +7,12 @@ execFileSync(process.execPath,['foundation/build.mjs'],{stdio:'inherit'});
 for(let i=0;i<paths.length;i++)if(before[i]!==await readFile(paths[i],'utf8'))throw Error('Stale generated output: '+paths[i]);
 for(const path of config.pages){const html=await readFile(path.path.slice(1)+'index.html','utf8');if((html.match(/<h1>/g)||[]).length!==1||html.includes('{{'))throw Error('Invalid document');}
 console.log('PASS: deterministic output, shared checksums and document structure.');
+for(const path of ['/service-specifications/','/master-ownership-and-costs/']){
+  const page=config.pages.find(page=>page.path===path);
+  if(!page||page.sections.length<4)throw Error('Missing substantive operational guidance');
+  const html=await readFile(path.slice(1)+'index.html','utf8');
+  if(!html.includes(page.sections[0].paragraphs[0]))throw Error('Guidance must exist in initial HTML');
+}
 for(const page of config.pages){
   const html=await readFile(page.path.slice(1)+'index.html','utf8');
   if(!html.includes('rel="canonical" href="'+config.domain+page.path+'"'))throw Error('Invalid canonical');
