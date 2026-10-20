@@ -379,7 +379,7 @@
           "id": "status",
           "title": "What you can use",
           "paragraphs": [
-            "Studio supports Google and email account access through the same sign-in identity as Artan Store. Your Studio artist profile, private photographs and billing address are separate from Store purchases. Creating an account is not artist approval. Release submissions, artist-specific statistics, agreements, payments and payouts are not active yet."
+            "Studio supports Google and email account access through the same sign-in identity as Artan Store. Artist catalogue metadata and release/track drafts can be saved privately, with public-after-approval choices for selected fields. Account email, phone, billing details, contributor legal-name records and private listening references are not exposed by those choices. Creating an account or saving metadata is not artist approval, submission, distribution or automatic publication. Artist-specific statistics, agreements, signing, payments and payouts are not active yet."
           ]
         },
         {
