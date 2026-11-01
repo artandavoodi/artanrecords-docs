@@ -10,7 +10,7 @@
     "prompt":"Search a topic or question.",
     "pageSize":12,
     "moreLabel":"Show more",
-    "categories":[{"id":"all","label":"All"},{"id":"releases","label":"Releases","paths":["/audio/","/artwork/","/metadata/","/release-workflow/","/submission-standards/"]},{"id":"partnerships","label":"Partnerships","paths":["/partnerships/","/agreements/","/royalties/","/payments/","/referrals-and-payments/"]},{"id":"guidance","label":"Guidance"}],
+    "categories":[{"id":"all","label":"All"},{"id":"releases","label":"Releases","paths":["/audio/","/artwork/","/metadata/","/release-workflow/","/submission-standards/"]},{"id":"partnerships","label":"Partnerships","paths":["/partnerships/","/revenue-shares/","/agreements/","/royalties/","/payments/","/referrals-and-payments/"]},{"id":"guidance","label":"Guidance"}],
     "results": "{count} guides found",
     "empty": "No matching guides. Browse the topics below."
   },
@@ -43,6 +43,21 @@
     }
   ],
   "pages": [
+    {"path":"/revenue-shares/","title":"Revenue Shares","description":"Contributors, proposed recording-income shares, private invitations and agreement review in Artanrecords Studio.","category":"Artist guidance","sections":[
+      {"id":"separation","title":"A credit is not a share","paragraphs":["Contributors describe who took part in the work. Contributions record their roles. Public release credits remain in Releases. A credit does not create a financial entitlement, and a revenue-share proposal does not publish a credit."]},
+      {"id":"workspace","title":"Start with the work","paragraphs":["In Studio, open Business → Revenue Shares and select your project or release. Add a contributor by professional name, invitation email and role. Choose a standard role or describe a custom role. Workflow administration is not proof of master ownership or authority to bind another person."]},
+      {"id":"basis","title":"Understand the Project Artist Pool","paragraphs":["Proposed collaborator percentages apply to the artist's eligible recording receipts after the label share and deductions defined in the signed agreement, not automatically to gross revenue. The agreement's version and effective dates govern; a mutable tier name never determines an account entitlement. Unallocated percentages remain in the artist pool. Publishing rights, master ownership, company equity, commerce income and subscription income are excluded from this proposal workflow."]},
+      {"id":"scope","title":"Choose scope and effective dates","paragraphs":["A proposal may cover a project, a release or selected stable track IDs within a release. Project and release workspaces are separate until their relationship is explicitly established; they are not silently combined. For the same contributor and overlapping dates, a track-specific proposal takes precedence over a broader proposal. Equal-specificity overlap is rejected, and different contributors' applicable percentages may not exceed 100%. These are proposal checks, not a revenue ledger or payment calculation."]},
+      {"id":"invitation","title":"Review before inviting","paragraphs":["Confirm that you are authorized to propose the terms. Preparing an invitation does not prove delivery. Where delivery is not connected, Studio identifies it as pending rather than claiming the person received an email. A recipient may access delivered terms using the exact verified email on their account, without purchasing Studio Pro. Private account search and other contributors' percentages are not available to recipients."]},
+      {"id":"response","title":"Acceptance and execution are separate","paragraphs":["A participant may accept, decline or request changes to a delivered proposal. Acceptance records the response and waits for agreement execution; it does not sign a contract, activate a share or move money. Binding execution requires legally reviewed terms, approved signing and retained evidence. Studio's internal signing demonstration is non-binding."]},
+      {"id":"history","title":"Keep a version history","paragraphs":["Changing draft terms or responding to a change request creates a new immutable version. Previous percentages, dates and terms digests remain recorded. Superseded unsent invitations are cancelled; an unsent amendment is not exposed to the participant. An open unexecuted proposal may be archived without deleting its history."]},
+      {"id":"availability","title":"Financial services are separate","paragraphs":["This private foundation does not import distributor statements, calculate payable balances, allocate reconciled earnings, withhold tax or route payments. There is no automatic DistroKid bridge, payout activation or withdrawal permission. Statements, bank onboarding and payments require their own verified accounting and provider processes."]}
+    ]},
+    {"path":"/custom-domains/","title":"Website and store domains","description":"Manage separate custom-domain requests for your artist website and store in Studio Settings.","category":"Artist guidance","sections":[
+      {"id":"choose","title":"Choose the correct destination","paragraphs":["Open Settings → Domains. Artist website covers your artist pages, music, projects and gallery. Artist store is the separate shop destination. Use distinct hostnames, for example yourname.com for the website and shop.yourname.com for the store. A website request does not create a shop."]},
+      {"id":"request","title":"Add a domain you control","paragraphs":["Enter only the hostname, without https://, a path, port or wildcard. Saving creates a private request; it does not purchase a domain or change DNS. Pending requests can be cancelled. You remain responsible for registration and renewal unless a separate agreement says otherwise."]},
+      {"id":"connect","title":"Wait for verified connection instructions","paragraphs":["Keep existing DNS records until ownership, the hosting destination and HTTPS are confirmed. Requested, ownership verified and connected are separate states. A connected status requires verified ownership and TLS readiness; it cannot be set from the artist's browser. Do not point a domain to an invented IP address or generic hosting target."]}
+    ]},
     {"path":"/service-specifications/","title":"Agree the service, then measure delivery","description":"How to turn a partnership scope into deliverables, responsibilities, approvals and completion evidence.","category":"Artist guidance","sections":[
       {"id":"schedule","title":"The service schedule","paragraphs":["Before work begins, record each deliverable, its owner, the artist inputs it depends on, the approval decision, target date, revision limit, cost treatment and completion evidence. The signed project schedule governs; a public comparison is not an accepted offer."]},
       {"id":"classes","title":"Six scope classifications","paragraphs":["Included means part of the accepted scope, subject to the agreed inputs. Eligible means it may be offered after review, not an automatic entitlement. Priority concerns coordination within an agreed schedule, not immediate access or an unqualified response guarantee.","Project-specific work requires its own brief, approvals and budget. Optional work may be declined without changing existing obligations. Not included means outside the base scope; any separate engagement needs explicit agreement. Future platform functions are availability notices, not contracted services."]},
@@ -277,15 +292,15 @@
     },
     {
       "path": "/agreements/",
-      "title": "Find and sign an agreement",
+      "title": "Review agreements and proposed terms",
       "description": "What is available now, and what must be confirmed before signing.",
       "category": "Artist guidance",
       "sections": [
         {
           "id": "availability",
-          "title": "No agreement portal yet",
+          "title": "Proposals and executed agreements",
           "paragraphs": [
-            "Studio does not currently store or display signed agreements. No standard artist contract is published or approved here. Request the agreement applicable to your project directly from Artanrecords."
+            "Studio Agreements lists private proposed collaboration terms linked from Revenue Shares. These versioned records are not executed contracts. No standard artist contract is published or approved here; request the legally reviewed agreement applicable to your project from Artanrecords."
           ]
         },
         {
